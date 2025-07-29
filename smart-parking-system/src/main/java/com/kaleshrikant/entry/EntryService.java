@@ -2,6 +2,7 @@ package com.kaleshrikant.entry;
 
 import com.kaleshrikant.event.VehicleEnteredEvent;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 
@@ -9,7 +10,7 @@ import java.time.LocalDateTime;
  * @author Shrikant Kale
  * @Date 7/29/25
  */
-
+@Service
 public class EntryService {
 
 	// save vehicle entry details to DB

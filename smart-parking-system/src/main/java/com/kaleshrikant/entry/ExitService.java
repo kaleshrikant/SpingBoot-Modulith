@@ -2,6 +2,7 @@ package com.kaleshrikant.entry;
 
 import com.kaleshrikant.event.VehicleExitedEvent;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 
@@ -10,6 +11,7 @@ import java.time.LocalDateTime;
  * @Date 7/29/25
  */
 
+@Service
 public class ExitService {
 
 	// save vehicle entry details to DB
