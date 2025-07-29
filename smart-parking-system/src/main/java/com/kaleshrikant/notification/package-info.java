@@ -1,4 +1,4 @@
-@ApplicationModule (displayName = "NOTIFICATION-MODULE")
+@ApplicationModule (displayName = "NOTIFICATION-MODULE", allowedDependencies = {"notification", "event"})
 
 package com.kaleshrikant.notification;
 

@@ -1,4 +1,4 @@
-@ApplicationModule (displayName = "EVENT-MODULE")
+@ApplicationModule (displayName = "EVENT-MODULE", allowedDependencies = {"event"})
 
 package com.kaleshrikant.event;
 

@@ -1,4 +1,4 @@
-@ApplicationModule(displayName = "ALLOCATION-MODULE")
+@ApplicationModule(displayName = "ALLOCATION-MODULE", allowedDependencies = {"allocation", "event"})
 
 package com.kaleshrikant.allocation;
 

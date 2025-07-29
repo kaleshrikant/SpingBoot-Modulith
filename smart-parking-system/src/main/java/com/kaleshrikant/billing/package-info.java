@@ -1,4 +1,4 @@
-@ApplicationModule(displayName = "BILLING-MODULE")
+@ApplicationModule(displayName = "BILLING-MODULE", allowedDependencies = {"billing", "event"})
 
 package com.kaleshrikant.billing;
 
